@@ -4,13 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon server.js",
+    "start":"nodemon server.js",
     "start:prod": "NODE_ENV=production nodemon server.js"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "concurrently": "^4.1.2",
+    "ndb": "^1.1.5",
     "nodemon": "^1.19.2"
   },
   "dependencies": {
